@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marketpulse"
+version = "0.1.0"
+description = "A financial analytics platform for exploring market data and quantitative risk metrics."
+readme = "README.md"
+requires-python = ">=3.13"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=9.0,<10.0",
+]
